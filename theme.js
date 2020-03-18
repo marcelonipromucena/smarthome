@@ -4,7 +4,7 @@ const colors = {
   white: "#FFFFFF",
   gray: "#a7a7a7",
   gray2: '#ECEDEF',
-  button: "#dddddd"
+  button: "#ECEDEF"
 };
 
 const sizes = {
