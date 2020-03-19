@@ -42,9 +42,11 @@ class Settings extends Component {
 
     return (
       <Block flex={1} style={styles.settings}>
-        <Block flex={0.5} row>
-          <Block column>
+          <Block style={{marginBottom:30}}>
             <Icon size={theme.sizes.font * 4} color={theme.colors.black} />
+          </Block>
+        <Block flex={0} row>
+          <Block column>
             <Block flex={1.2} row style={{ alignItems: "flex-end" }}>
               <Text h1>34</Text>
               <Text h1 size={34} height={80} weight={"600"} spacing={0.1}>
